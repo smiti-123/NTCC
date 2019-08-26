@@ -1,0 +1,71 @@
+{
+  "name": "gatsby-starter-default",
+  "description": "Gatsby default starter",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "babel-eslint": "^8.2.6",
+    "babel-plugin-styled-components": "^1.5.1",
+    "chalk": "^2.4.1",
+    "gatsby": "next",
+    "gatsby-image": "next",
+    "gatsby-node-helpers": "^0.3.0",
+    "gatsby-plugin-manifest": "next",
+    "gatsby-plugin-netlify": "next",
+    "gatsby-plugin-offline": "next",
+    "gatsby-plugin-react-helmet": "next",
+    "gatsby-plugin-react-next": "next",
+    "gatsby-plugin-sass": "next",
+    "gatsby-plugin-sharp": "next",
+    "gatsby-plugin-stripe-elements": "^1.0.7",
+    "gatsby-plugin-styled-components": "next",
+    "gatsby-source-filesystem": "next",
+    "gatsby-source-shopify": "^1.1.0",
+    "gatsby-transformer-sharp": "next",
+    "graphql-request": "^1.8.0",
+    "icheck": "^1.0.2",
+    "lodash": "^4.17.10",
+    "node-sass": "^4.9.3",
+    "p-iteration": "^1.1.7",
+    "prettyjson": "^1.2.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-helmet": "^5.2.0",
+    "react-icheck": "^0.3.8",
+    "react-preloaders": "^2.1.3",
+    "react-spinkit": "^3.0.0",
+    "react-stripe-checkout": "^2.6.3",
+    "reactstrap": "^6.3.0",
+    "shopify-buy": "^1.6.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./ --ext .js"
+  },
+  "devDependencies": {
+    "detect-installed": "^2.0.4",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0",
+    "lerna": "^3.1.4",
+    "prettier": "1.14.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "workspaces": [
+    "src",
+    "themes/*"
+  ]
+}
